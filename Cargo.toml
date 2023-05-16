@@ -21,15 +21,15 @@ log-debug = []  # test only
 [dependencies]
 notify = "5.1.0"
 log = "0.4.17"
-sysinfo = { version = "0.28.0", default-features = false, optional = true }
-futures = "0.3.26"
+sysinfo = { version = "0.29.0", default-features = false, optional = true }
+futures = "0.3.28"
 lazy_static = "1.4.0"
 rand = "0.8.5"
-semver = "1.0.16"
+semver = "1.0.17"
 
 [dev-dependencies]
 rand_xorshift = "0.3.0"
-simple_logger = "4.0.0"
-ctor = "0.1.26"
+simple_logger = "4.1.0"
+ctor = "0.2.0"
 futures-timer = "3.0.2"
 

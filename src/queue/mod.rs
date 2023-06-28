@@ -4,7 +4,7 @@ mod iter;
 mod receiver;
 mod sender;
 
-pub use iter::{QueueIter};
+pub use iter::QueueIter;
 pub use receiver::{Receiver, ReceiverBuilder, RecvGuard};
 pub use sender::{Sender, SenderBuilder};
 
